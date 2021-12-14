@@ -84,6 +84,30 @@ li:last-child {
   color: rebeccapurple;
 } */
 
-article p:last-child {
+/* misconception - will not work */
+article p:first-child {
   color: red;
+}
+
+/* styling hyperlinks */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* during the duration of click */
+a:active {
+  background-color: black;
+  font-style: italic;
 }
