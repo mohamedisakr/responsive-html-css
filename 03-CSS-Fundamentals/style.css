@@ -44,10 +44,6 @@ li {
   font-family: sans-serif;
 }
 
-#copyright {
-  font-size: 16px;
-}
-
 #author {
   font-style: italic;
   font-size: 18px;
@@ -111,3 +107,22 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* resolving conflicts */
+/*
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+ footer p {
+  color: green !important;
+} 
+*/
