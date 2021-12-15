@@ -16,19 +16,6 @@ body {
   position: relative;
 }
 
-.product-page::after {
-  content: 'SALE';
-  color: #fff;
-  background-color: #ff4500;
-  font-size: 16px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 5px 10px;
-  position: absolute;
-  top: -15px;
-  left: -25px;
-}
-
 .product-title {
   font-size: 22px;
   text-transform: uppercase;
@@ -49,6 +36,20 @@ body {
   text-transform: uppercase;
   color: #777;
   margin-bottom: 20px;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: -30px;
 }
 
 /* .more-info {
@@ -121,15 +122,19 @@ p {
 .color-blue {
   background-color: #2f6ee2;
 }
+
 .color-red {
   background-color: #ec2f2f;
 }
+
 .color-yellow {
   background-color: #f0bf1e;
 }
+
 .color-green {
   background-color: #90cc20;
 }
+
 .color-brown {
   background-color: #885214;
 }
