@@ -7,11 +7,14 @@
 body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
   width: 800px;
   margin: 0 auto;
+  position: relative;
 }
 
 nav {
@@ -44,6 +47,7 @@ article {
 
 .post-hearder {
   margin-bottom: 40px;
+  position: relative;
 }
 
 aside {
@@ -165,6 +169,15 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+button {
+  font-size: 22px;
+  padding: 20;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 /* resolving conflicts */
