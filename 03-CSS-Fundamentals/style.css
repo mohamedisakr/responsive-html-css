@@ -20,6 +20,7 @@ article {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-hearder {
@@ -31,6 +32,12 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 h1,
