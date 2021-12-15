@@ -17,6 +17,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 nav a:link {
@@ -121,9 +122,19 @@ li:last-child {
   font-size: 18px;
 }
 
+.author-img {
+  height: 50px;
+  width: 50px;
+}
+
 .related-author {
   font-size: 18px;
   font-weight: bold;
+}
+
+.related-img {
+  width: 75px;
+  height: 75px;
 }
 
 .related {
