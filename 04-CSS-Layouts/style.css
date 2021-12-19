@@ -1,7 +1,8 @@
 * {
-  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* border-top: 10px solid #1098ad; */
 }
 
 /* PAGE SECTIONS */
@@ -14,19 +15,19 @@ body {
 
 .container {
   width: 1200px;
+  margin: 0 auto;
   /* margin-left: auto;
   margin-right: auto; */
-  margin: 0 auto;
 }
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
   /* background-color: rebeccapurple; */
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
-  padding: 20px 40px;
-  margin-bottom: 60px;
   /* height: 80px; */
 }
 
@@ -48,10 +49,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -82,6 +80,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -134,6 +133,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 body {
@@ -299,18 +299,15 @@ nav {
 }
 
 article {
-  background-color: green;
   width: 825px;
   float: left;
 }
 
 aside {
-  background-color: red;
   width: 300px;
   float: right;
 }
 
 footer {
-  background-color: yellow;
   clear: both;
 }
