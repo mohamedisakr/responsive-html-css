@@ -268,16 +268,17 @@ nav p {
 } */
 
 /* Floats */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
 .author {
   /* padding-left: 80px; */
   float: left;
   margin-top: 10px;
   margin-left: 20px;
-}
-
-.author-img {
-  float: left;
-  margin-bottom: 20px;
 }
 
 h1 {
