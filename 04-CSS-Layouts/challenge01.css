@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+/* product */
+.product-page {
+  border: 4px solid #000;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* product info */
+.price {
+  font-size: 25px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+}
+
+/* .more-info {
+   margin-bottom: 10px; 
+  padding-bottom: 10px;
+} */
+
+.more-info:link,
+.more-info:visited {
+  color: #000;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* product details */
+.details-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* button */
+.add-cart {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  border-top: 4px solid #000;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.product-colors {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  /* display: inline-block; */
+  /* margin-right: 10px; */
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+
+.color-red {
+  background-color: #ec2f2f;
+}
+
+.color-yellow {
+  background-color: #f0bf1e;
+}
+
+.color-green {
+  background-color: #90cc20;
+}
+
+.color-brown {
+  background-color: #885214;
+}
