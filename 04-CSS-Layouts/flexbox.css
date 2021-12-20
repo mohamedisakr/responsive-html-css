@@ -35,15 +35,29 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px; /*create space between items, without using margin*/
+  /*create space between items, without using margin*/
+  gap: 5px;
 }
 
 .el {
-  /* margin-right: 30px; */
+  /* DEFAULTS */
+  /*To allow an element to grow (0 means no, 1+ means yes)*/
+  /* flex-grow: 0;  */
+  /*To allow an element to shrink (0 means no, 1+ means yes)*/
+  /* flex-shrink: 1; */
+  /*To define an item’s width, instead of the width property*/
+  /* flex-basis: auto; */
+
+  /* flex-basis: 200px; */
+  /* flex-shrink: 0;
+  flex-grow: 1; */
+
+  flex: 1; /* Recommended shorthand for flex-grow, -shrink, -basis. */
 }
 
 .el--1 {
   align-self: flex-start;
+  /* flex-grow: 1; */
 }
 
 .el--5 {
