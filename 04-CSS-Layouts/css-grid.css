@@ -26,6 +26,7 @@
 
 .container--1 {
   /* STARTER */
+
   font-family: sans-serif;
   background-color: #ddd;
   font-size: 40px;
@@ -41,6 +42,9 @@
   /* gap: 5px; */
   column-gap: 20px;
   row-gap: 40px;
+
+  /* hide temporarily */
+  display: none;
 }
 
 .el--8 {
@@ -61,15 +65,31 @@
 }
 
 .container--2 {
-  display: none;
   /* STARTER */
   font-family: sans-serif;
   background-color: black;
   font-size: 40px;
-  margin: 100px;
+  margin: 40px;
 
-  width: 1000px;
+  width: 700px;
   height: 600px;
 
   /* CSS GRID */
+  display: grid;
+  grid-template-columns: 125px 200px 125px;
+  grid-template-rows: 250px 100px;
+  gap: 50px;
+
+  /* Aligning tracks inside container = distributing empty space*/
+  justify-content: center;
+  align-content: center;
+
+  /* Aligning items inside cells = moving items around inside cells*/
+  align-items: center;
+  justify-items: center;
+}
+
+.el--3 {
+  align-self: end;
+  justify-self: end;
 }
