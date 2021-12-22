@@ -24,7 +24,7 @@ body {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* background-color: rebeccapurple; */
   /* padding: 20px;
   padding-left: 40px;
@@ -38,7 +38,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -363,6 +363,8 @@ nav {
   font-style: italic;
 }
 
+/* flexbox layout */
+/* 
 .row {
   display: flex;
   gap: 75px;
@@ -370,13 +372,37 @@ nav {
   align-items: flex-start;
 }
 
-article {
-  /* flex: 0 0 825px; */
+article {  
   flex: 1;
   margin-bottom: 0;
 }
 
-aside {
-  /* align-self: flex-start; */
+aside {  
   flex: 0 1 300px;
+} */
+
+/* css grid layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 70px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+article {
+}
+
+aside {
+  /* justify-self: start;
+  align-self: start; */
+}
+
+footer {
+  background-color: rebeccapurple;
+  grid-column: 1 / -1;
 }
