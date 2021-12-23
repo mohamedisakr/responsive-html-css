@@ -1,0 +1,12 @@
+headers
+----------
+About           --> О нас
+Services        --> Услуги
+Vacancies       --> Вакансии
+news            --> Новости
+Agreements      --> Соглашения
+Sign in         --> войти
+Sign up         --> ЗАРЕГИСТРИРОВАТЬСЯ
+
+
+
