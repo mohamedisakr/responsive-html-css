@@ -21,6 +21,59 @@ Green #6fcf97
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eeeef7;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 5px;
+  /* grid-column: 1 / -1; */
+  /* background-color: #eeeef7; */
+  background-color: #fff;
+  padding: 20px 40px;
+}
+
+h1 {
+  flex: 1;
+}
+
 nav {
-  margin-bottom: 12px;
+  flex: 0 1 auto;
+  align-self: center;
+}
+
+nav a:link {
+  margin-right: 30px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* Styling links */
+a:link {
+  color: #eeeef7; /*#a9aad6;*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a9aad6;
+  /* color: #1098ad; */
+  /* color: #777; */
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
