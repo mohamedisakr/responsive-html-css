@@ -68,14 +68,51 @@ body {
   height: 25px;
 }
 
+.social-contact {
+  stroke: #5356ac;
+  fill: #bc9cff;
+  width: 24px;
+  height: 24px;
+}
+
+/* 
 .twitter {
-  /* mask: url('../assets/images/twitter-brands.svg') no-repeat center; */
+  mask: url('../assets/images/twitter-brands.svg') no-repeat center;
 }
 
 .facebook {
-  /* mask: url('../assets/images/facebook-light-blue.webp') no-repeat center; */
+  mask: url('../assets/images/facebook-light-blue.webp') no-repeat center;
 }
 
 .instagram {
-  /* mask: url('../assets/images/instagram-brands.svg') no-repeat center; */
+  mask: url('../assets/images/instagram-brands.svg') no-repeat center;
+} 
+
+*/
+
+/* Styling links */
+a:link {
+  /* color: var(--dark-shade-5); */
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  /* color: var(--dark-shade-25); */
+  /* color: #1098ad; */
+  /* color: #777; */
+}
+
+a:hover {
+  /* color: var(--orange-red); */
+  /* font-weight: bold; */
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  /* font-style: italic; */
+  /* background-color: black; */
+  /* color: var(--dark-shade-100); 
+  font-weight: bold; */
 }
