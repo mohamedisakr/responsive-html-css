@@ -64,8 +64,8 @@ body {
 } */
 
 .social {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
 }
 
 .twitter {
@@ -73,7 +73,7 @@ body {
 }
 
 .facebook {
-  mask: url('../assets/images/facebook-light-blue.webp') no-repeat center;
+  /* mask: url('../assets/images/facebook-light-blue.webp') no-repeat center; */
 }
 
 .instagram {
