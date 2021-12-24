@@ -37,7 +37,7 @@ body {
   background-color: var(--dark-shade-5);
 }
 
-.main-header {
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,45 +46,36 @@ body {
   padding: 20px 40px;
 }
 
-.logo-img {
+.copyright {
   /* flex: 1; */
+  flex: 0 1 auto;
+  align-self: center;
+  color: var(--dark-shade-25);
 }
 
-nav {
+.social-network {
   flex: 0 1 auto;
   align-self: center;
 }
 
-nav a:link {
-  margin-right: 30px;
-  display: inline-block;
+/* img {
+  width: 50px;
+  height: 50px;
+} */
+
+.social {
+  width: 50px;
+  height: 50px;
 }
 
-nav a:link:last-child {
-  margin-right: 0;
+.twitter {
+  /* mask: url('../assets/images/twitter-brands.svg') no-repeat center; */
 }
 
-/* Styling links */
-a:link {
-  color: var(--dark-shade-5); /*#a9aad6;*/
-  text-decoration: none;
+.facebook {
+  mask: url('../assets/images/facebook-light-blue.webp') no-repeat center;
 }
 
-a:visited {
-  color: var(--dark-shade-25);
-  /* color: #1098ad; */
-  /* color: #777; */
-}
-
-a:hover {
-  color: var(--orange-red);
-  font-weight: bold;
-  text-decoration: underline var(--orange-red);
-}
-
-a:active {
-  /* font-style: italic; */
-  /* background-color: black; */
-  color: var(--dark-shade-100); /*!important*/
-  font-weight: bold;
+.instagram {
+  /* mask: url('../assets/images/instagram-brands.svg') no-repeat center; */
 }
