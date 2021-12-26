@@ -8,4 +8,4 @@ const handleItemDivsClick = () => {
   })
 }
 
-handleItemDivsClick()
+document.addEventListener('DOMContentLoaded', handleItemDivsClick)
