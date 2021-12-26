@@ -1,0 +1,69 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+COLOR SYSTEM
+Dark Shade 100% #1f2041
+Dark Shade 75% #292b56
+Dark Shade 50% #5356ac
+Dark Shade 25% #a9aad6
+Dark Shade 5% #eeeef7
+Purple #bc9cff
+Green #6fcf97
+*/
+
+:root {
+  --dark-shade-100: #1f2041;
+  --dark-shade-75: #292b56;
+  --dark-shade-50: #5356ac;
+  --dark-shade-25: #a9aad6;
+  --dark-shade-5: #eeeef7;
+  --purple: #bc9cff;
+  --green: #6fcf97;
+  --white: #fff;
+  --orange-red: #ff4500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-shade-5);
+  color: #343a40;
+  line-height: 1;
+}
+
+.login-form {
+  width: 700px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.label-input {
+  /* 14 / 16 / 18     */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wrap-input {
+  width: 600px;
+  margin: 24px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
