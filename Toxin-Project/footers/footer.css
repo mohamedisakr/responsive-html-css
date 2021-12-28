@@ -36,6 +36,7 @@ Green #6fcf97
 
 body {
   background-color: var(--dark-shade-5);
+  line-height: 1;
 }
 
 .footer {
@@ -116,4 +117,57 @@ a:active {
   /* background-color: black; */
   /* color: var(--dark-shade-100); 
   font-weight: bold; */
+}
+
+.footer-section {
+  /* 
+
+  display: flex;
+  gap: 24px; */
+}
+
+.grid-5-cols {
+  margin-bottom: 48px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 12px;
+}
+
+.company-col {
+  /* box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.09); */
+  background-color: yellowgreen;
+}
+
+.company-info {
+}
+
+.company-description {
+}
+
+.company-map {
+  grid-column: 1;
+}
+
+.navigation {
+  grid-column: 2;
+}
+
+.about-us {
+  grid-column: 3;
+}
+
+.support {
+  grid-column: 4;
+}
+
+.subscription {
+  grid-column: 5;
+}
+
+.col-header {
+  font-weight: 700;
+}
+
+.logo-img {
 }

@@ -8,5 +8,57 @@ Agreements      --> Соглашения
 Sign in         --> войти
 Sign up         --> ЗАРЕГИСТРИРОВАТЬСЯ
 
+footer
+--------
+TOXIN
+Бронирование номеров в лучшем отеле 2022 года по версии ассоциации «Отельные взгляды»
+
+TOXIN
+Reservation of rooms in the best hotel in 2022 according to the "Hotel Views" Association
+
+- НАВИГАЦИЯ
+О нас
+Новости
+СЛУЖБА ПОДДЕРЖКИ
+Услуги
+
+- NAVIGATION
+About Us
+News
+Support
+Services
+
+- О НАС
+О сервисе
+Наша команда
+Вакансии
+Инвесторы
+
+- ABOUT US
+About the service
+Our Team
+Vacancies
+Investors
+
+- Служба поддержки
+Соглашения
+Сообщества
+Связь с нами
+
+- Support 
+Agreements
+Communities
+Contact us
+
+- ПодписКА
+Получайте специальные предложения и новости сервиса
+Email
+
+- SUBSCRIPTION
+Receive special offers and service news
+Email
+
+
+
 
 
