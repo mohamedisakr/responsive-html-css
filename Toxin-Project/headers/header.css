@@ -16,11 +16,27 @@ Green #6fcf97
 */
 
 :root {
-  --dark-shade-100: #1f2041;
-  --dark-shade-75: #292b56;
+  --dark-shade-100: #ffffff;
+  --dark-shade-95: #eeeef7;
+  --dark-shade-90: #ddddee;
+  --dark-shade-85: #cbcce6;
+  --dark-shade-80: #babbde;
+  --dark-shade-75: #a9aad6;
+  --dark-shade-70: #989acd;
+  --dark-shade-65: #8789c5;
+  --dark-shade-60: #7578bd;
+  --dark-shade-55: #6467b4;
   --dark-shade-50: #5356ac;
-  --dark-shade-25: #a9aad6;
-  --dark-shade-5: #eeeef7;
+  --dark-shade-45: #4b4d9b;
+  --dark-shade-40: #42458a;
+  --dark-shade-35: #3a3c78;
+  --dark-shade-30: #323467;
+  --dark-shade-25: #292b56;
+  --dark-shade-20: #212245;
+  --dark-shade-15: #191a34;
+  --dark-shade-10: #111122;
+  --dark-shade-5: #080911;
+  --dark-shade-0: #000000;
   --purple: #bc9cff;
   --green: #6fcf97;
   --white: #fff;
@@ -34,7 +50,7 @@ Green #6fcf97
 }
 
 body {
-  background-color: var(--dark-shade-5);
+  background-color: var(--dark-shade-95);
 }
 
 .main-header {
@@ -56,8 +72,35 @@ nav {
 }
 
 nav a:link {
+  color: var(--dark-shade-75);
+  text-decoration: none;
+  font-size: 20px;
   margin-right: 30px;
   display: inline-block;
+}
+
+nav a:visited {
+  color: var(--dark-shade-25);
+  /* color: #1098ad; */
+  /* color: #777; */
+}
+
+nav a:hover {
+  color: var(--orange-red);
+  font-weight: bold;
+  text-decoration: underline var(--orange-red);
+}
+
+nav a:active {
+  color: var(--dark-shade-75);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+nav a.active {
+  color: var(--dark-shade-10);
+  font-weight: bold;
+  font-size: 22px;
 }
 
 nav a:link:last-child {
@@ -65,26 +108,36 @@ nav a:link:last-child {
 }
 
 /* Styling links */
-a:link {
-  color: var(--dark-shade-5); /*#a9aad6;*/
+/* a:link {
+  color: var(--dark-shade-5); 
   text-decoration: none;
-}
+  font-size: 20px;
+} */
 
-a:visited {
+/* color: #1098ad; */
+/* color: #777; */
+/* a:visited {
   color: var(--dark-shade-25);
-  /* color: #1098ad; */
-  /* color: #777; */
-}
+} */
 
-a:hover {
+/* a:hover {
   color: var(--orange-red);
   font-weight: bold;
   text-decoration: underline var(--orange-red);
-}
+} */
 
-a:active {
-  /* font-style: italic; */
-  /* background-color: black; */
-  color: var(--dark-shade-100); /*!important*/
+/* a:active {
+  color: var(--dark-shade-100);
   font-weight: bold;
-}
+  font-size: 22px;
+} */
+
+/* .active {
+  color: var(--dark-shade-100);
+  font-weight: bold;
+  font-size: 22px;
+} */
+
+/* nav a {
+  background-color: rebeccapurple;
+} */
