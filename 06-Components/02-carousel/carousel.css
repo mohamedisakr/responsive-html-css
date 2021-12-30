@@ -43,9 +43,12 @@ img {
   width: 800px;
   margin: 100px auto;
   border-radius: 8px;
-  padding: 32px;
+  /* padding: 32px;
   padding-left: 86px;
+  padding-right: 48px; */
+  padding: 32px 48px 86px 32px;
   background-color: var(--main-color);
+  position: relative;
 
   display: flex;
   align-items: center;
@@ -73,8 +76,62 @@ img {
   color: #c3fae8;
 }
 
+/* controls */
 .btn {
+  background-color: var(--white);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--left {
+  /* relation to parent element */
+  left: 0;
+  top: 50%;
+
+  /* relation to the element itself */
+  transform: translate(-50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
 }
 
 .btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: var(--main-color);
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: var(--white);
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot--fill {
+  background-color: var(--main-color);
 }
