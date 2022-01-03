@@ -32,27 +32,25 @@ body {
   line-height: 1;
 }
 
-img {
-  height: 200px;
-  border-radius: 8px;
-  transform: scale(1.5);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
-}
-
 .carousel {
   width: 800px;
+  padding: 32px 48px 32px 86px;
+  /* padding-left: 86px; */
   margin: 100px auto;
   border-radius: 8px;
-  /* padding: 32px;
-  padding-left: 86px;
-  padding-right: 48px; */
-  padding: 32px 48px 86px 32px;
   background-color: var(--main-color);
   position: relative;
 
   display: flex;
   align-items: center;
   gap: 86px;
+}
+
+img {
+  height: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
 
 .testimonial {
@@ -68,6 +66,7 @@ img {
 
 .testimonial-author {
   font-size: 14px;
+  margin-bottom: 4px;
   color: #c3fae8;
 }
 
@@ -80,11 +79,11 @@ img {
 .btn {
   background-color: var(--white);
   border: none;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
+  height: 40px;
+  width: 40px;
   position: absolute;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 
   display: flex;
@@ -102,14 +101,17 @@ img {
 }
 
 .btn--right {
+  /* relation to parent element */
   right: 0;
   top: 50%;
+
+  /* relation to the element itself */
   transform: translate(50%, -50%);
 }
 
 .btn-icon {
-  width: 24px;
   height: 24px;
+  width: 24px;
   stroke: var(--main-color);
 }
 
@@ -124,11 +126,11 @@ img {
 }
 
 .dot {
-  height: 12px;
   width: 12px;
+  height: 12px;
   background-color: var(--white);
   border: 2px solid var(--main-color);
-  border-radius: 50%;
+  border-radius: 50px;
   cursor: pointer;
 }
 
