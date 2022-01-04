@@ -15,14 +15,36 @@ html {
 }
 
 header {
-  background-color: rebeccapurple;
   height: 100vh;
+  position: relative;
+  color: #fff;
+
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.5),
+      rgba(34, 34, 34, 0.5)
+    ),
+    url('../hero.jpg');
+}
+
+.header-container {
+  /* background-color: violet; */
+  width: 1200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.header-container-inner {
+  width: 50%;
+  /* background-color: yellowgreen; */
 }
 
 nav {
   font-size: 20px;
   font-weight: 700;
-  background-color: yellowgreen;
+  padding-top: 32px;
 
   display: flex;
   justify-content: space-between;
@@ -31,6 +53,7 @@ nav {
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
+  line-height: 1.05;
 }
 
 p {
