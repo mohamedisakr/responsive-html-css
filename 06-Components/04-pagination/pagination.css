@@ -32,53 +32,36 @@ body {
   color: var(--gray-color);
   line-height: 1;
   font-size: 18px;
+
+  display: flex;
+  justify-content: center;
 }
 
 .pagination {
   width: 800px;
-  margin: 100px auto;
+  margin-top: 200px;
 
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 12px;
 }
 
 /* controls */
-
 .btn {
-  background-color: var(--white);
   border: 1px solid var(--main-color);
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  background: none;
   cursor: pointer;
 }
 
 .btn:hover {
   background-color: var(--main-color);
-  border: 1px solid var(--white);
 }
 
 .btn:hover .btn-icon {
   stroke: var(--white);
-}
-
-.btn--left {
-  /* relation to parent element */
-  /* left: 0;
-    top: 50%; */
-
-  /* relation to the element itself */
-  /* transform: translate(-50%, -50%); */
-}
-
-.btn--right {
-  /* relation to parent element */
-  /* right: 0;
-    top: 50%; */
-
-  /* relation to the element itself */
-  /* transform: translate(50%, -50%); */
 }
 
 .btn-icon {
@@ -86,6 +69,47 @@ body {
   width: 24px;
   stroke: var(--main-color);
 }
+
+.page-link:link,
+.page-link:visited {
+  font-size: 18px;
+  color: var(--gray-color);
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+  background-color: var(--main-color);
+  color: var(--white);
+}
+
+/* .page-link--current {
+  background-color: var(--main-color);
+  color: var(--white);
+} */
+
+.dots {
+  color: #868e96;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*
+.page-link--fill,
+.page-link:hover {
+  background-color: var(--main-color);
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+*/
 
 /*
   .dots {
@@ -99,25 +123,6 @@ body {
   }
   */
 
-.dot {
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
-  padding: 2px;
-  color: var(--black);
-  background-color: var(--white);
-  border: 2px solid var(--main-color);
-  border-radius: 50px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.dot--fill,
-.dot:hover {
-  background-color: var(--main-color);
-  border: 2px solid var(--white);
-  color: var(--white);
-}
 /* 
 .dot--fill {
   background-color: var(--main-color);
