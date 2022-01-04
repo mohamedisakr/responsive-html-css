@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #444;
+  /* background-color: yellowgreen; */
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 24px;
+  row-gap: 32px;
+  align-items: center;
+}
+
+.side-bar {
+}
+
+.container {
+  grid-column: 2 -1;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-operations {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  align-items: center;
+}
+
+.email-list {
+  background-color: violet;
+  grid-column: 1;
+}
+
+.email-view {
+  /* background-color: rebeccapurple; */
+  background-color: powderblue;
+  grid-column: 2;
+}
+
+.aditional-info {
+  background-color: plum;
+  grid-column: 3;
+}
