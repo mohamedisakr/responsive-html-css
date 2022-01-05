@@ -17,7 +17,6 @@ body {
 }
 
 nav,
-menu,
 section,
 main,
 aside {
@@ -34,12 +33,51 @@ nav {
 menu {
   grid-column: 2 / -1;
 
-  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
   background-color: #7048e8;
+  padding: 0 40px;
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  background-color: #5f3dc4;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+button:last-child {
+  color: #fff;
+  background-color: #c2255c;
+  margin-left: auto;
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  overflow: scroll;
+
   background-color: #e9ecef;
+  padding: 40px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background-color: #adb5bd;
+  height: 96px;
 }
 
 main {
